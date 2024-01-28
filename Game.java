@@ -4,8 +4,8 @@ import java.util.Scanner;
 class Game {
   private int number;
   private int guessNumber;
-  private int previousGuess = -1; // Track the previous guess
-  private int counter; // Count the number of guesses
+  private int previousGuess = -1; 
+  private int counter; 
 
   // Constructor
   public Game() {

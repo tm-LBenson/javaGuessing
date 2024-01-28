@@ -10,7 +10,7 @@ public class GuessNumberApp {
     char playAgain;
     do {
       game.generateNumberToBeGuessed();
-      game.resetGuessNumber(); // Added method to reset guess count to break out of loop
+      game.resetGuessNumber(); 
       while (!game.isCorrectGuess()) {
         game.displayPleaseGuessMessage();
         int userGuess = scanner.nextInt();
